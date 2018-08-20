@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2018",                        
+    "module": "commonjs",                    
+    "lib": ["es2015", "es2016", "es2017", "es2018"],                            
+    "sourceMap": true,                     
+    "outDir": "./build",
+    "strict": false,
+    "strictNullChecks": false,            
+    "noImplicitAny": false,    
+    "moduleResolution": "node",
+    "esModuleInterop": false,
+    "sourceRoot": "./src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true, 
+  }
+}
